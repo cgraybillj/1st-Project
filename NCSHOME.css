@@ -6,4 +6,6 @@ title {
 header > h1 {
     border: solid;
     border-color: red;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
 }
