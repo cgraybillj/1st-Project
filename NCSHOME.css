@@ -2,3 +2,8 @@ title {
     border: solid;
     border-color: red;
 }
+
+header > h1 {
+    border: solid;
+    border-color: red;
+}
