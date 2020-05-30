@@ -8,12 +8,16 @@ header {
 }
 
 header > h1 {
+    border: solid;
+    border-width: thin;
     text-align: center;
-    padding: 10px 0px 10px 0px;
 }
 
 header > h2 {
+    border: solid;
+    border-width: thin;
     text-align: center;
+    padding: 0px;
 }
 
 article {
