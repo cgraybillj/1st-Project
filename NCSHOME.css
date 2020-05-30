@@ -1,11 +1,20 @@
-title {
-    border: solid;
-    border-color: red;
-}
-
 header > h1 {
     border: solid;
     border-color: red;
     text-align: center;
-    padding: 10px 10px 0px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+header > h2 {
+    border: solid;
+    border-color: aquamarine;
+    text-align: center;
+}
+
+article {
+    border: solid blueviolet;
+}
+
+section {
+    border: solid seagreen;
 }
