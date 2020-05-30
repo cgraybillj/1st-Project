@@ -1,13 +1,18 @@
+body {
+    background-color: #f9f9eb;
+}
+
+header {
+   border: ridge;
+   border-width: thick; 
+}
+
 header > h1 {
-    border: solid;
-    border-color: red;
     text-align: center;
     padding: 10px 0px 10px 0px;
 }
 
 header > h2 {
-    border: solid;
-    border-color: aquamarine;
     text-align: center;
 }
 
