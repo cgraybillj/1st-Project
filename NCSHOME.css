@@ -2,23 +2,13 @@ body {
     background-color: #f9f9eb;
 }
 
-#y12 {
-    padding: 10px;
+#y12{
+    float: left;
 }
 
-header {
-   border: ridge;
-   border-width: thick;
-   position: relative;
-   bottom: 150px;
-}
-
-header > h1 {
+#title {
     text-align: center;
-}
-
-header > h2 {
-    text-align: center;
+    border: solid;
 }
 
 article {
