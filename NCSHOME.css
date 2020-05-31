@@ -2,14 +2,24 @@ body {
     background-color: #f9f9eb;
 }
 
+header{
+    overflow: auto;
+    border: ridge brown;
+}
+
 #y12{
     float: left;
+    padding: 10px;
+}
+
+#krusty {
+    float: right;
+    padding: 10px;
 }
 
 #title {
     text-align: center;
-    border: solid;
-}
+    padding-top: 75px;
 
 article {
     border: solid blueviolet;
