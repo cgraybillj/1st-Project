@@ -10,7 +10,13 @@ header {
 header > h1 {
     border: solid;
     border-width: thin;
-    text-align: center;
+    word-wrap: normal;
+    margin-top: auto;
+    overflow: auto;
+}
+
+#y12 {
+    float: left;
 }
 
 header > h2 {
