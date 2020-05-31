@@ -24,6 +24,7 @@ header > h2 {
     border-width: thin;
     text-align: center;
     padding: 0px;
+    margin: 0px;
 }
 
 article {
