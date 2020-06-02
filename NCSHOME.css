@@ -27,10 +27,6 @@ header{
     font-weight: bold;
 }
 
-article {
-    border: solid blueviolet;
-}
-
 section {
     border: solid seagreen;
 }
