@@ -25,16 +25,17 @@ header{
     padding-top: 60px;
     font-size: 30px;
     font-weight: bold;
+    font-family: 'Comic Sans MS', 'Times New Roman', Times, serif;
 }
 
 span {
     display: flex;
     justify-content: space-evenly;
-    border-style: solid;
 }
 
 span>section {
     border-style: solid;
     border-color: green;
     width: 400px;
+    font-family: 'Comic Sans MS', 'Times New Roman', Times, serif;
 }
