@@ -8,7 +8,7 @@ header{
     border-width: thick;
 }
 
-#y12{
+#y12logo{
     float: left;
     border: double;
     margin: 10px;
@@ -27,11 +27,12 @@ header{
     font-weight: bold;
 }
 
-span{
+span {
     display: flex;
     justify-content: space-evenly;
+    border-style: solid;
 }
 
-section {
-    border: solid seagreen;
+#y12 {
+    
 }
