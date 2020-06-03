@@ -33,6 +33,7 @@ span {
     border-style: solid;
 }
 
-#y12 {
-    
+span>section {
+    border-style: solid;
+    border-color: green;
 }
