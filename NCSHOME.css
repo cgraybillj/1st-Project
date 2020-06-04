@@ -22,6 +22,22 @@ header{
     margin-right: 50px;
 }
 
+#y12pics {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+
+#y12pics>img{
+    width: 400px;
+    height: 250px;
+}
+
+#y12w{
+    float: left;
+    padding-left: 0px;
+}
+
 #title {
     text-align: center;
     padding-top: 35px;
