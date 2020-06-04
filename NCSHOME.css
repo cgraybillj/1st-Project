@@ -12,18 +12,20 @@ header{
     float: left;
     border: double;
     margin: 10px;
+    margin-left: 50px;
 }
 
 #krusty {
     float: right;
     border-style: double;
     margin: 10px;
+    margin-right: 50px;
 }
 
 #title {
     text-align: center;
-    padding-top: 60px;
-    font-size: 30px;
+    padding-top: 35px;
+    font-size: 40px;
     font-weight: bold;
     font-family: 'Comic Sans MS', 'Times New Roman', Times, serif;
 }
@@ -37,5 +39,30 @@ span>section {
     border-style: solid;
     border-color: green;
     width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-family: 'Comic Sans MS', 'Times New Roman', Times, serif;
+}
+
+hr{
+    height: 5px;
+    color: green;
+    background-color: green;
+}
+
+span>section>h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #8b0000;
+}
+
+.subtitle{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.text{
+    font-size: 20px;
+    text-align: justify;
 }
