@@ -66,3 +66,11 @@ span>section>h3{
     font-size: 20px;
     text-align: justify;
 }
+
+ul{
+    list-style-type: square;
+}
+
+li {
+    padding-left: 15px;
+}
