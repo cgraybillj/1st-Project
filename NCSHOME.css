@@ -163,11 +163,30 @@ li {
     border-width: 3px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 10px;
     font-family: 'Comic Sans MS', 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 #news>h3 {
     text-align: center;
     text-decoration: underline;
+    font-size: 25px;
+    font-weight: bold;
 }
 
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #4169E1;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #e2492f;
+}
