@@ -4,14 +4,15 @@ body {
 
 header{
     overflow: auto;
-    border: solid #8B4513;
+    border: solid green;
     border-width: 7px;
+    border-radius: 10px;
 }
 
 #y12logo{
     float: left;
     border-style: solid;
-    border-color: green;
+    border-color: #4169E1;
     border-radius: 10px;
     border-width: 3px;
     margin: 10px;
@@ -21,7 +22,7 @@ header{
 #krusty {
     float: right;
     border-style: solid;
-    border-color: green;
+    border-color: #e2492f;
     border-radius: 10px;
     border-width: 3px;
     margin: 10px;
@@ -31,6 +32,7 @@ header{
 #title {
     text-align: center;
     padding-top: 35px;
+    color: #8B4513;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Comic Sans MS', 'Times New Roman', Times, serif;
@@ -66,7 +68,7 @@ span>section>h3{
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    color: #8b0000;
+    color: #8B4513;
 }
 
 .subtitle{
