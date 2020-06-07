@@ -4,38 +4,28 @@ body {
 
 header{
     overflow: auto;
-    border: ridge brown;
-    border-width: thick;
+    border: solid #8B4513;
+    border-width: 7px;
 }
 
 #y12logo{
     float: left;
-    border: double;
+    border-style: solid;
+    border-color: green;
+    border-radius: 10px;
+    border-width: 3px;
     margin: 10px;
     margin-left: 50px;
 }
 
 #krusty {
     float: right;
-    border-style: double;
+    border-style: solid;
+    border-color: green;
+    border-radius: 10px;
+    border-width: 3px;
     margin: 10px;
     margin-right: 50px;
-}
-
-#y12pics {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-evenly;
-}
-
-#y12pics>img{
-    width: 400px;
-    height: 250px;
-}
-
-#y12w{
-    float: left;
-    padding-left: 0px;
 }
 
 #title {
@@ -54,6 +44,8 @@ span {
 span>section {
     border-style: solid;
     border-color: green;
+    border-radius: 10px;
+    border-width: 3px;
     width: 400px;
     padding-left: 20px;
     padding-right: 20px;
@@ -62,6 +54,8 @@ span>section {
 
 hr{
     height: 5px;
+    border-radius: 10px;
+    border-color: black;
     color: green;
     background-color: green;
 }
@@ -90,3 +84,90 @@ ul{
 li {
     padding-left: 15px;
 }
+
+#y12pics {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,17vw);
+    grid-gap: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-style: none;
+}
+
+#y12pics>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border-width: 3px;
+}
+
+#y12{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-style: solid;
+    border-color: #4169E1;
+}
+
+#navy{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-style: solid;
+    border-color: #e2492f;
+}
+
+#nuke{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border-style: solid;
+    border-color: #4169E1;
+}
+
+#uo3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    border-style: solid;
+    border-color: #e2492f;
+}
+
+#yellowcake{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    border-style: solid;
+    border-color: #4169E1;
+}
+
+#brown{
+    height: 7px;
+    color: #8B4513;
+    background-color: #8B4513;
+}
+
+#news{
+    border-style: solid;
+    border-color: green;
+    border-radius: 10px;
+    border-width: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Comic Sans MS', 'Times New Roman', Times, serif;
+}
+
+#news>h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
