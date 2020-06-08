@@ -5,8 +5,11 @@ body {
 header{
     overflow: auto;
     border: solid green;
-    border-width: 7px;
+    border-width: 5px;
     border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-width: 2.5px;
 }
 
 #y12logo{
@@ -43,6 +46,13 @@ header{
     margin: 0;
     padding: 0;
     overflow: hidden;
+    border-style: solid;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-width: 2.5px;
+    border-color: green;
+    border-width: 5px;
 }
 
 #navbar > li {
