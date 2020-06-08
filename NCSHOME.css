@@ -4,7 +4,7 @@ body {
 
 header{
     overflow: auto;
-    border: solid green;
+    border: solid #329555;
     border-width: 5px;
     border-radius: 10px;
     border-bottom-left-radius: 0px;
@@ -35,7 +35,7 @@ header{
 #title {
     text-align: center;
     padding-top: 35px;
-    color: #8B4513;
+    color: black;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Comic Sans MS', 'Times New Roman', Times, serif;
@@ -52,7 +52,7 @@ header{
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-top-width: 5px;
-    border-color: green;
+    border-color: #329555;
     font-size: 25px;
     font-weight: bold;
     font-family: 'Comic Sans MS', 'Times New Roman', Times, serif;
@@ -60,8 +60,25 @@ header{
 
 #navbar > li {
         float: left;
-        border-right:1px solid #bbb;
+        text-align: center;
+        border-right: 2px solid 	#329555;
         padding: 7px;
+}
+
+#navbar>li a:link {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar>li a:visited{
+    text-decoration: none;
+    color: #4169E1;
+}
+
+#navbar>li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #e2492f;
 }
 
 span {
@@ -71,7 +88,7 @@ span {
 
 span>section {
     border-style: solid;
-    border-color: green;
+    border-color: #329555;
     border-radius: 10px;
     border-width: 3px;
     width: 400px;
@@ -84,15 +101,15 @@ hr{
     height: 5px;
     border-radius: 10px;
     border-color: black;
-    color: green;
-    background-color: green;
+    color: #329555;
+    background-color: #329555;
 }
 
 span>section>h3{
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    color: #8B4513;
+    color: black;
 }
 
 .subtitle{
