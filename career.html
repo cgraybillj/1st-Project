@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title> Careers </title>
+            <link rel="stylesheet" href="NCSHOME.css">
+        </head>
+            <body>
+                <header>
+                    <h1> Become a Nuclear Criticality Safety Engineer! </h1>
+                </header>
+                <form>
+                    <fieldset>
+                    <legend>Personal Info:</legend>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" value="First Name"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" value="Last Name"> <br> 
+                    <label for="email">Enter your email:</label> <br>
+                    <input type="email" id="email" name="email">
+                    <br><br>
+                    <label for="citizenship"> What is your citizenship Status? </label> 
+                    <br>
+                    <input type="radio" id="Non-USCitizen" name="citizenship" value="Non-US Citizen">
+                    <label for="Non-US">Non-US Citizen</label><br>
+                    <input type="radio" id="DualCitizen" name="citizenship" value="Dual citizenship">
+                    <label for="DualCitizen">Dual citizenship</label><br>
+                    <input type="radio" id="USCitizen" name="citizenship" value="US Citizen">
+                    <label for="US"> US Citizen</label>
+                    <br>
+                    </fieldset>
+                    <fieldset>
+                    <legend> NCSE Position: </legend>
+                    <label for="position"> Interested Position: </label>
+                    <select id="position" name="Position">
+                        <option value="Engineer 1"> Engineer 1 </option>
+                        <option value="Engineer 2"> Engineer 2 </option>
+                        <option value="Sr. Engineer"> Sr. Engineer </option>
+                        <option value="Manager"> Manager </option>
+                    </select>
+                    <br><br>
+                    <label for="experience"> Please explain how your past personal and professional experience make you a quality candidate for the position for which you are applying: </label>
+                    <br>
+                    <textarea name="message" rows="20" cols="50"> </textarea> 
+                    <br> <br>
+                    <label for="myfile"> Please upload your Resume:</label>
+                    <input type="file" id="myfile" name="myfile">
+                    </fieldset>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </body>
+    </html>
