@@ -154,15 +154,7 @@ li {
     border-color: #4169E1;
 }
 
-#brown{
-    height: 7px;
-    color: #8B4513;
-    background-color: #8B4513;
-}
-
 #news{
-    border-style: solid;
-    border-color: green;
     border-radius: 10px;
     border-width: 3px;
     padding-left: 20px;
