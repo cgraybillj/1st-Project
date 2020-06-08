@@ -4,7 +4,7 @@ body {
 
 header{
     overflow: auto;
-    border: solid #329555;
+    border: solid green;
     border-width: 5px;
     border-radius: 10px;
     border-bottom-left-radius: 0px;
@@ -46,13 +46,16 @@ header{
     margin: 0;
     padding: 0px;
     overflow: hidden;
+    position: sticky;
+    top: 0px;
     border-style: solid;
     border-width: 5px;
     border-radius: 10px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-top-width: 5px;
-    border-color: #329555;
+    border-color: green;
+    background-color: #f9f9eb;
     font-size: 25px;
     font-weight: bold;
     font-family: 'Comic Sans MS', 'Times New Roman', Times, serif;
@@ -61,7 +64,7 @@ header{
 #navbar > li {
         float: left;
         text-align: center;
-        border-right: 2px solid 	#329555;
+        border-right: 2px solid green;
         padding: 7px;
 }
 
@@ -88,7 +91,7 @@ span {
 
 span>section {
     border-style: solid;
-    border-color: #329555;
+    border-color: green;
     border-radius: 10px;
     border-width: 3px;
     width: 400px;
@@ -101,8 +104,8 @@ hr{
     height: 5px;
     border-radius: 10px;
     border-color: black;
-    color: #329555;
-    background-color: #329555;
+    color: green;
+    background-color: green;
 }
 
 span>section>h3{
