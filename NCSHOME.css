@@ -234,3 +234,81 @@ a:hover {
 #important{
     color: #e2492f;
 }
+
+#specialheader {
+    font-family: 'Comic Sans MS', 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#specialbody {
+    border-style: solid;
+    border-color: green;
+    border-width: 5px;
+    padding: 50px;
+}
+
+fieldset{
+    border-style: dashed;
+    border-radius: 10px;
+    border-color: #e2492f;
+}
+
+legend{
+    font-weight: bolder;
+    color: #4169E1;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,18vw);
+    grid-gap: 15px;
+    padding-top: 30px;
+    font-family: 'Comic Sans MS', 'Times New Roman', Times, serif;
+}
+
+form > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#field1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#field2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+#b61 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+#engineer{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#logo {
+    object-fit: scale-down;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-radius: 10px;
+}

@@ -4,19 +4,30 @@
             <title> Careers </title>
             <link rel="stylesheet" href="NCSHOME.css">
         </head>
-            <body>
-                <header>
+            <body id="specialbody">
+                <header id="specialheader">
                     <h1> Become a Nuclear Criticality Safety Engineer! </h1>
                 </header>
+                <ul id="navbar">
+                    <li> <a class="bar" href="NCSHOME.html"> Home </a> </li>
+                    <li> <a class="bar" href="career.html"> Careers </a></li>
+                    <li> <a class="bar" href="contactus.html"> Contact Us </a> </li>
+                </ul>
                 <form>
-                    <fieldset>
+                    <img id="engineer" src="Engineer.jpg" alt="Engineer">
+                    <fieldset id="field1">
                     <legend>Personal Info:</legend>
+                    <br>
                     <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname" value="First Name"><br>
+                    <input type="text" id="fname" name="fname" value="First Name"><br><br>
                     <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname" value="Last Name"> <br> 
+                    <input type="text" id="lname" name="lname" value="Last Name"> <br> <br>
+                    <label for="date">Date of Birth:</label> <br>
+                    <input type="date" id="date" name="date" value="01/01/2000"><br><br>
                     <label for="email">Enter your email:</label> <br>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" value="john.doe@cns.doe.gov"><br><br>
+                    <label for="phone"> Enter your phone number:</label><br>
+                    <input type="tel" id="phone" name="phone" value="865-999-9999">
                     <br><br>
                     <label for="citizenship"> What is your citizenship Status? </label> 
                     <br>
@@ -26,10 +37,12 @@
                     <label for="DualCitizen">Dual citizenship</label><br>
                     <input type="radio" id="USCitizen" name="citizenship" value="US Citizen">
                     <label for="US"> US Citizen</label>
-                    <br>
+                    <br><br>
+                    <input id="submit" type="submit" value="Submit">
                     </fieldset>
-                    <fieldset>
+                    <fieldset id="field2">
                     <legend> NCSE Position: </legend>
+                    <br>
                     <label for="position"> Interested Position: </label>
                     <select id="position" name="Position">
                         <option value="Engineer 1"> Engineer 1 </option>
@@ -44,9 +57,11 @@
                     <br> <br>
                     <label for="myfile"> Please upload your Resume:</label>
                     <input type="file" id="myfile" name="myfile">
+                    <br><br>
+                    <input id="submit" type="submit" value="Submit">
                     </fieldset>
-                    <br>
-                    <input type="submit" value="Submit">
+                    <img id="b61" src="b61.jpg" alt="B61">
+                    <img id="logo" src="y12Logo.JPG" alt="Y-12 Logo">
                 </form>
             </body>
     </html>
