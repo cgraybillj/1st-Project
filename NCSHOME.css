@@ -312,3 +312,30 @@ form > img {
     grid-row-end: 3;
     border-radius: 10px;
 }
+
+#specialdiv{
+    text-align: center;
+    margin: 10vw;
+    border-style: double;
+    border-top-color: #e2492f;
+    border-left-color: #e2492f;
+    border-bottom-color: #4169E1;
+    border-right-color: #4169E1;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    border-width: 2vw;
+}
+
+#speciallogo {
+    border-radius: 10px;
+    width: 25vw;
+    height: 20vw;
+}
+
+figcaption {
+    text-align: center;
+    color: black;
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', 'Times New Roman', Times, serif;
+}
